@@ -1,0 +1,37 @@
+/* Navbar styles */
+.navbar {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 10px 20px; /* Adjust padding as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Larger font size for brand */
+    color: #343a40; /* Dark text color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  /* Button styles */
+  .btn {
+    font-size: 1rem; /* Medium font size */
+    padding: 8px 16px; /* Adjust padding as needed */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .btn-outline-success {
+    border: 1px solid #28a745; /* Green border */
+    color: #28a745; /* Green text color */
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745; /* Green background on hover */
+    color: #fff; /* White text color on hover */
+  }
+  
+  /* Active button styles */
+  .active .btn-outline-success {
+    background-color: #28a745; /* Green background */
+    color: #fff; /* White text color */
+  }
+  

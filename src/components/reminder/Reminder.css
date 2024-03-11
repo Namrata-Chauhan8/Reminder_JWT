@@ -1,0 +1,23 @@
+
+
+.Reminder-Card{
+    border: 1px solid black;
+}
+
+.reminder-card-p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.icons{
+    cursor: pointer;
+}
+.reminder-update{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    background-color:blanchedalmond;
+    display: none;
+}
